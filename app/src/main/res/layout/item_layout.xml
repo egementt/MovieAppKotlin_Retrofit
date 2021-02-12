@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+    android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="137dp"
+        android:layout_height="230dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Deneme Film"
+            android:textAlignment="gravity">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/year_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:text="Year"
+            android:textAlignment="center">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/type_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:text="Type"
+            android:textAlignment="center">
+
+        </TextView>
+
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+</LinearLayout>
+
+
+
